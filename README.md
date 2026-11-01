@@ -40,19 +40,19 @@ errors should be interpreted as conservative estimates.
 
 ## Selected figures
 
-![Mean velocity comparison](results/figures/mean-velocity-comparison.png)
+![Mean velocity comparison](results-figures/mean-velocity-comparison.png)
 
-![Average percentage error](results/figures/average-percentage-error.png)
+![Average percentage error](results-figures/average-percentage-error.png)
 
 ## Repository structure
 
 ```text
 docs/                 Anonymized report and initial presentation
 analysis/scripts/     MATLAB analysis scripts
-results/figures/      Aggregate project figures
-data/raw/             Local-only participant data (ignored by Git)
+results-figures/      Aggregate project figures
+raw-data/             Local-only participant data (ignored by Git)
 analysis/local-results Local-only participant-specific exports (ignored)
 ```
 
-Raw participant data is kept locally for reproducibility but is not intended
-for publication.
+Raw participant data is kept locally in `raw-data/` for reproducibility but is
+not intended for publication.
