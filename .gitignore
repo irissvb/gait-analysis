@@ -1,0 +1,7 @@
+# Raw participant data is kept locally and is not published.
+data/raw/
+
+# Participant-specific exports and MATLAB live scripts may contain local paths
+# or identifiers.
+analysis/local-results/
+analysis/scripts/**/*.mlx
